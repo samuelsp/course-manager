@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { CourseListComponent } from './courses/course-list.component';
 import { StarComponent } from './star/star.component';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     RouterModule.forRoot(
       [
         {
